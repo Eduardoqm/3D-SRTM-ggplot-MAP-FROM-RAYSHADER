@@ -11,7 +11,7 @@ library(rgdal)
 srtm=raster("C:/Users/Documents/SRTM_BCB/SRTMGL1_003.elevation.tif")
 
 #Load vector of park limit
-bcb=readOGR(dsn = "C:/Users/Eduardo Q Marques/Documents/My Jobs/EQMapas/shapes",layer="limite_reserva_total")
+bcb=readOGR(dsn = "C:/UsersDocuments/shapes",layer="limite_reserva_total")
 
 #Here we will change the projection for the data to be compatible
 proj=projection(srtm)
