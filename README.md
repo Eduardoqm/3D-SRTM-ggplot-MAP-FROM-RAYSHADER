@@ -16,7 +16,7 @@ Load SRTM file and vector of park limit
 ![srtm](https://user-images.githubusercontent.com/24628679/60932895-62ecf000-a296-11e9-8b4d-545985efbbed.jpeg)
 
 
-`bcb=readOGR(dsn = "C:/Users/Eduardo Q Marques/Documents/My Jobs/EQMapas/shapes",layer="limite_reserva_total")`
+`bcb=readOGR(dsn = "C:/Users/Documents/shapes",layer="limite_reserva_total")`
 
 ![bcb](https://user-images.githubusercontent.com/24628679/60932833-21f4db80-a296-11e9-9252-641df8999f8e.jpeg)
 
